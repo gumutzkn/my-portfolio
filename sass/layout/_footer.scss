@@ -1,0 +1,67 @@
+.footer {
+  background-image: linear-gradient(to left bottom, rgb(177, 51, 61), rgb(133, 7, 7));
+  padding: 25rem 0 20rem 0;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+  margin-top: -29vh;
+  position: relative;
+
+  &__navigation {
+    // background-color: white;
+    margin: 0 25rem;
+    // display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__header {
+    text-align: center;
+    font-size: 4rem;
+    color: $color-black;
+    font-weight: 400;
+    margin-left: 4rem;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    // background-color: red;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    align-items: center;
+    // background-color: blue;
+    transition: all 0.2s;
+    display: flex;
+
+    i {
+      color: $color-white;
+      font-size: 4rem;
+      margin-left: 2.5rem;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &__bottom {
+    position: absolute;
+    color: $color-white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, rgb(47, 24, 24), rgb(42, 9, 9));
+    padding: 4rem;
+  }
+
+  &__copyright {
+    font-size: 1.7rem;
+  }
+}

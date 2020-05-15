@@ -1,0 +1,52 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__img-container {
+    // background-color: red;
+    width: 40%;
+    height: 70%;
+    background-image: url(../img/coder.png);
+    background-position: middle;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    animation: moveInRight 1s ease-out;
+
+    position: absolute;
+    top: 15%;
+    left: 60%;
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    // background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -65%);
+    text-align: center;
+
+    p {
+      width: 50%;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      color: $color-white;
+      animation: moveInRight 1s ease-out;
+      font-size: 3rem;
+    }
+  }
+}
