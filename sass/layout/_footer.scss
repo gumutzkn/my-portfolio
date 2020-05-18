@@ -1,53 +1,121 @@
 .footer {
   background-image: linear-gradient(to left bottom, rgb(177, 51, 61), rgb(133, 7, 7));
-  padding: 25rem 0 20rem 0;
+  padding: 22rem 0 15rem 0;
   clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
   margin-top: -29vh;
   position: relative;
 
-  &__navigation {
-    // background-color: white;
-    margin: 0 25rem;
-    // display: flex;
-    flex-direction: column;
-    justify-content: center;
+  @include respond(phone) {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    padding: 22rem 0;
   }
 
-  &__header {
-    text-align: center;
-    font-size: 4rem;
-    color: $color-black;
-    font-weight: 400;
-    margin-left: 4rem;
+  &__container {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    align-items: flex-end;
+    transform: translateY(-20%);
+
+    @include respond(tab-port) {
+      align-items: center;
+      justify-self: end;
+      transform: translateY(-30%);
+    }
+
+    @include respond(phone) {
+      display: none;
+    }
+
+    &--header {
+      font-size: 5rem;
+      color: $color-white;
+      font-weight: 600;
+
+      @include respond(tab-port) {
+        font-size: 4.5rem;
+        // background-color: black;
+      }
+    }
+
+    &--h3 {
+      font-size: 2rem;
+      color: $color-white;
+      opacity: 0.7;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__navigation {
+    // background-color: yellowgreen;
+    margin: 0 20rem 5rem 20rem;
+    display: grid;
+    justify-items: flex-end;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    align-items: center;
+    padding-bottom: 1rem;
+
+    @include respond(phone) {
+      margin: 0;
+      padding-bottom: 4rem;
+    }
+
+    @include respond(tab-port) {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      margin-top: 2rem;
+    }
   }
 
   &__list {
     list-style: none;
     display: flex;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     flex-direction: column;
+    justify-self: center;
+    // transform: translateX(-90%);
 
-    justify-content: center;
-    // background-color: red;
+    @include respond(phone-small) {
+      transform: translateX(2rem);
+    }
+
+    @include respond(phone) {
+      margin-left: 2rem;
+    }
+
+    @include respond(tab-port) {
+      margin-left: -2rem;
+    }
+
+    span {
+      margin: 0 0 0 2rem;
+    }
+  }
+
+  &__item {
+    transition: all 0.2s;
+    margin-bottom: 1rem;
+    opacity: 0.85;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   &__link {
+    display: flex;
     text-decoration: none;
     color: $color-white;
     font-size: 2rem;
     text-transform: uppercase;
-    align-items: center;
     // background-color: blue;
-    transition: all 0.2s;
-    display: flex;
 
     i {
       color: $color-white;
-      font-size: 4rem;
-      margin-left: 2.5rem;
-    }
-
-    &:hover {
-      opacity: 0.6;
+      font-size: 3.3rem;
     }
   }
 
@@ -57,7 +125,7 @@
     width: 100%;
     bottom: 0;
     text-align: center;
-    background-image: linear-gradient(to right bottom, rgb(47, 24, 24), rgb(42, 9, 9));
+    background-image: linear-gradient(to left bottom, rgb(128, 15, 24), rgb(105, 12, 12));
     padding: 4rem;
   }
 

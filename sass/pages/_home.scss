@@ -7,21 +7,25 @@
     margin: 0 15rem;
     margin-top: 10rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    // background-color: black;
+    grid-template-columns: repeat(auto-fit, minmax(48.75rem, 1fr));
     grid-gap: 3rem;
-  }
 
-  .column {
-    background-color: rgba($color-white, 0.8);
-    font-size: 1.5rem;
-    padding: 2.5rem;
-    text-align: center;
-    border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
-    transition: transform 0.3s;
+    @include respond(phone-small) {
+      // grid-template-columns: 1fr;
+    }
 
-    &:hover {
-      transform: translateY(-1.5rem) scale(1.03);
+    @include respond(phone) {
+      margin: 0;
+      margin-top: 10rem;
+      padding: 0;
+      grid-template-columns: 1fr;
+    }
+
+    @include respond(tab-port) {
+      margin: 0;
+      margin-top: 10rem;
+      padding: 0 7rem;
     }
   }
 }
@@ -30,13 +34,17 @@
   padding: 20rem 0 35rem 0;
   background-image: linear-gradient(
       to left bottom,
-      rgba(rgb(177, 51, 61), 0.6),
+      rgba(rgb(51, 19, 21), 0.6),
       rgba(rgb(133, 7, 7), 0.6)
     ),
     url(../img/portfolio.jpeg);
   background-size: cover;
   margin-bottom: 3rem;
   margin-top: -12rem;
+
+  @include respond(tab-port) {
+    padding: 8rem 0 35rem 0;
+  }
 
   &__columns {
     margin: 0 20rem;
@@ -46,6 +54,16 @@
     grid-gap: 3rem;
     justify-content: space-around;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 65rem));
+
+    @include respond(phone) {
+      margin: 0 1rem;
+      grid-template-columns: 1fr;
+    }
+
+    @include respond(tab-port) {
+      margin: 0 10rem;
+      margin-top: 10rem;
+    }
 
     .feature-box {
       background-color: $color-grey-light-2;

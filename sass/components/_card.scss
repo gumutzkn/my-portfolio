@@ -5,6 +5,10 @@
   position: relative;
   height: 52rem;
 
+  // @include respond(phone-small) {
+  //   width: 80%;
+  // }
+
   &__side {
     height: 52rem;
     transition: all 0.8s ease;
@@ -26,6 +30,26 @@
       transform: rotateY(180deg);
 
       &-1 {
+        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
+      }
+
+      &-2 {
+        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
+      }
+
+      &-3 {
+        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
+      }
+
+      &-4 {
+        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
+      }
+
+      &-5 {
+        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
+      }
+
+      &-6 {
         background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
       }
     }
@@ -55,7 +79,7 @@
           rgba(rgb(83, 49, 49), 0.8),
           rgba(rgb(53, 15, 15), 0.8)
         ),
-        url(../img/portfolio.jpeg);
+        url(../img/instguide.jpg);
     }
 
     &--2 {
@@ -64,10 +88,37 @@
           rgba(rgb(83, 49, 49), 0.8),
           rgba(rgb(53, 15, 15), 0.8)
         ),
-        url(../img/portfolio.jpeg);
+        url(../img/crwn.jpg);
     }
 
     &--3 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(rgb(83, 49, 49), 0.8),
+          rgba(rgb(53, 15, 15), 0.8)
+        ),
+        url(../img/portfolio.jpeg);
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(rgb(83, 49, 49), 0.8),
+          rgba(rgb(53, 15, 15), 0.8)
+        ),
+        url(../img/portfolio.jpeg);
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(rgb(83, 49, 49), 0.8),
+          rgba(rgb(53, 15, 15), 0.8)
+        ),
+        url(../img/portfolio.jpeg);
+    }
+
+    &--6 {
       background-image: linear-gradient(
           to right bottom,
           rgba(rgb(83, 49, 49), 0.8),
@@ -86,7 +137,7 @@
     position: absolute;
     top: 38rem;
     right: 2rem;
-    width: 60%;
+    width: 50%;
   }
 
   &__heading-span {
@@ -105,12 +156,36 @@
     &--2 {
       background-image: linear-gradient(
         to right bottom,
+        rgba(rgb(177, 51, 61), 0.85),
+        rgba(rgb(133, 7, 7), 0.85)
+      );
+    }
+
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
         rgba(rgb(83, 49, 49), 0.85),
         rgba(rgb(53, 15, 15), 0.85)
       );
     }
 
-    &--3 {
+    &--4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba(rgb(83, 49, 49), 0.85),
+        rgba(rgb(53, 15, 15), 0.85)
+      );
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba(rgb(83, 49, 49), 0.85),
+        rgba(rgb(53, 15, 15), 0.85)
+      );
+    }
+
+    &--6 {
       background-image: linear-gradient(
         to right bottom,
         rgba(rgb(83, 49, 49), 0.85),
