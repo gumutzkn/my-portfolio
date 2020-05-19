@@ -97,7 +97,7 @@
           rgba(rgb(83, 49, 49), 0.8),
           rgba(rgb(53, 15, 15), 0.8)
         ),
-        url(../img/portfolio.jpeg);
+        url(../img/port.jpg);
     }
 
     &--4 {
@@ -106,7 +106,8 @@
           rgba(rgb(83, 49, 49), 0.8),
           rgba(rgb(53, 15, 15), 0.8)
         ),
-        url(../img/portfolio.jpeg);
+        url(../img/calculator.png);
+      background-position: 40%;
     }
 
     &--5 {
@@ -115,7 +116,7 @@
           rgba(rgb(83, 49, 49), 0.8),
           rgba(rgb(53, 15, 15), 0.8)
         ),
-        url(../img/portfolio.jpeg);
+        url(../img/metrik.png);
     }
 
     &--6 {
@@ -124,7 +125,8 @@
           rgba(rgb(83, 49, 49), 0.8),
           rgba(rgb(53, 15, 15), 0.8)
         ),
-        url(../img/portfolio.jpeg);
+        url(../img/sound.png);
+      background-position: 50%;
     }
   }
 
@@ -164,32 +166,32 @@
     &--3 {
       background-image: linear-gradient(
         to right bottom,
-        rgba(rgb(83, 49, 49), 0.85),
-        rgba(rgb(53, 15, 15), 0.85)
+        rgba(rgb(177, 51, 61), 0.85),
+        rgba(rgb(133, 7, 7), 0.85)
       );
     }
 
     &--4 {
       background-image: linear-gradient(
         to right bottom,
-        rgba(rgb(83, 49, 49), 0.85),
-        rgba(rgb(53, 15, 15), 0.85)
+        rgba(rgb(177, 51, 61), 0.85),
+        rgba(rgb(133, 7, 7), 0.85)
       );
     }
 
     &--5 {
       background-image: linear-gradient(
         to right bottom,
-        rgba(rgb(83, 49, 49), 0.85),
-        rgba(rgb(53, 15, 15), 0.85)
+        rgba(rgb(177, 51, 61), 0.85),
+        rgba(rgb(133, 7, 7), 0.85)
       );
     }
 
     &--6 {
       background-image: linear-gradient(
         to right bottom,
-        rgba(rgb(83, 49, 49), 0.85),
-        rgba(rgb(53, 15, 15), 0.85)
+        rgba(rgb(177, 51, 61), 0.85),
+        rgba(rgb(133, 7, 7), 0.85)
       );
     }
   }

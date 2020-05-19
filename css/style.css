@@ -198,13 +198,15 @@ body {
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/crwn.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/portfolio.jpeg); }
+      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/port.jpg); }
     .card__picture--4 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/portfolio.jpeg); }
+      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/calculator.png);
+      background-position: 40%; }
     .card__picture--5 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/portfolio.jpeg); }
+      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/metrik.png); }
     .card__picture--6 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/portfolio.jpeg); }
+      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/sound.png);
+      background-position: 50%; }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -224,13 +226,13 @@ body {
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.85), rgba(53, 15, 15, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
     .card__heading-span--4 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.85), rgba(53, 15, 15, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
     .card__heading-span--5 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.85), rgba(53, 15, 15, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
     .card__heading-span--6 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.85), rgba(53, 15, 15, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -293,16 +295,16 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
     align-items: center;
     padding-bottom: 1rem; }
-    @media (max-width: 37.5em) {
-      .footer__navigation {
-        margin: 0;
-        padding-bottom: 4rem; } }
     @media (max-width: 56.25em) {
       .footer__navigation {
         display: flex;
         flex-direction: column;
         margin: 0;
         margin-top: 2rem; } }
+    @media (max-width: 37.5em) {
+      .footer__navigation {
+        margin: 0;
+        padding-bottom: 4rem; } }
   .footer__list {
     list-style: none;
     display: flex;
@@ -310,15 +312,12 @@ body {
     grid-row: 1 / 2;
     flex-direction: column;
     justify-self: center; }
-    @media (max-width: 25em) {
-      .footer__list {
-        transform: translateX(2rem); } }
-    @media (max-width: 37.5em) {
-      .footer__list {
-        margin-left: 2rem; } }
     @media (max-width: 56.25em) {
       .footer__list {
         margin-left: -2rem; } }
+    @media (max-width: 37.5em) {
+      .footer__list {
+        margin-left: 2rem; } }
     .footer__list span {
       margin: 0 0 0 2rem; }
   .footer__item {
@@ -355,15 +354,16 @@ body {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  @media (max-width: 56.25em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      margin-bottom: 4rem; } }
   @media (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       height: 90vh; } }
-  @media (max-width: 56.25em) {
-    .header {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__img-container {
     width: 40%;
     height: 70%;
@@ -396,36 +396,41 @@ body {
       color: #fff;
       animation: moveInRight 1s ease-out;
       font-size: 3rem; }
-      @media (max-width: 37.5em) {
-        .header__text-box p {
-          font-size: 1.5rem;
-          width: 100%;
-          padding: 0 1rem; } }
       @media (max-width: 56.25em) {
         .header__text-box p {
+          width: 70%; } }
+      @media (max-width: 37.5em) {
+        .header__text-box p {
+          width: 70%;
           font-size: 2.5rem; } }
 
 .section-about {
   background-color: #fff6f6;
   padding: 20rem 0 35rem 0;
   margin-top: -22vh; }
+  @media (max-width: 56.25em) {
+    .section-about {
+      margin-top: -20vh; } }
+  @media (max-width: 37.5em) {
+    .section-about {
+      margin-top: -14vh; } }
   .section-about__container {
     margin: 0 15rem;
     margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(48.75rem, 1fr));
     grid-gap: 3rem; }
-    @media (max-width: 37.5em) {
-      .section-about__container {
-        margin: 0;
-        margin-top: 10rem;
-        padding: 0;
-        grid-template-columns: 1fr; } }
     @media (max-width: 56.25em) {
       .section-about__container {
         margin: 0;
         margin-top: 10rem;
         padding: 0 7rem; } }
+    @media (max-width: 37.5em) {
+      .section-about__container {
+        margin: 0 3rem;
+        margin-top: 10rem;
+        padding: 0;
+        grid-template-columns: 1fr; } }
 
 .section-features {
   padding: 20rem 0 35rem 0;
@@ -435,21 +440,20 @@ body {
   margin-top: -12rem; }
   @media (max-width: 56.25em) {
     .section-features {
-      padding: 8rem 0 35rem 0; } }
+      padding: 8rem 3rem 35rem 3rem; } }
   .section-features__columns {
     margin: 0 20rem;
     display: grid;
     grid-gap: 3rem;
     justify-content: space-around;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 65rem)); }
-    @media (max-width: 37.5em) {
-      .section-features__columns {
-        margin: 0 1rem;
-        grid-template-columns: 1fr; } }
     @media (max-width: 56.25em) {
       .section-features__columns {
         margin: 0 10rem;
         margin-top: 10rem; } }
+    @media (max-width: 37.5em) {
+      .section-features__columns {
+        margin: 0 1rem; } }
     .section-features__columns .feature-box {
       background-color: #eee;
       font-size: 1.5rem;

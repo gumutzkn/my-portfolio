@@ -3,6 +3,14 @@
   padding: 20rem 0 35rem 0;
   margin-top: -22vh;
 
+  @include respond(tab-port) {
+    margin-top: -20vh;
+  }
+
+  @include respond(phone) {
+    margin-top: -14vh;
+  }
+
   &__container {
     margin: 0 15rem;
     margin-top: 10rem;
@@ -11,21 +19,17 @@
     grid-template-columns: repeat(auto-fit, minmax(48.75rem, 1fr));
     grid-gap: 3rem;
 
-    @include respond(phone-small) {
-      // grid-template-columns: 1fr;
-    }
-
-    @include respond(phone) {
-      margin: 0;
-      margin-top: 10rem;
-      padding: 0;
-      grid-template-columns: 1fr;
-    }
-
     @include respond(tab-port) {
       margin: 0;
       margin-top: 10rem;
       padding: 0 7rem;
+    }
+
+    @include respond(phone) {
+      margin: 0 3rem;
+      margin-top: 10rem;
+      padding: 0;
+      grid-template-columns: 1fr;
     }
   }
 }
@@ -43,7 +47,7 @@
   margin-top: -12rem;
 
   @include respond(tab-port) {
-    padding: 8rem 0 35rem 0;
+    padding: 8rem 3rem 35rem 3rem;
   }
 
   &__columns {
@@ -55,14 +59,13 @@
     justify-content: space-around;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 65rem));
 
-    @include respond(phone) {
-      margin: 0 1rem;
-      grid-template-columns: 1fr;
-    }
-
     @include respond(tab-port) {
       margin: 0 10rem;
       margin-top: 10rem;
+    }
+
+    @include respond(phone) {
+      margin: 0 1rem;
     }
 
     .feature-box {
