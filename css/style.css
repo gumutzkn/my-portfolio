@@ -203,7 +203,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/calculator.png);
       background-position: 40%; }
     .card__picture--5 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/metrik.png); }
+      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/tictactoe.png);
+      background-position: 50%; }
     .card__picture--6 {
       background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/sound.png);
       background-position: 50%; }
