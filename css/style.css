@@ -194,19 +194,19 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/instguide.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/instguide.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/crwn.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/crwn.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/port.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/port.jpg); }
     .card__picture--4 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/calculator.png);
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/calculator.png);
       background-position: 40%; }
     .card__picture--5 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/tictactoe.png);
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/tictactoe.png);
       background-position: 50%; }
     .card__picture--6 {
-      background-image: linear-gradient(to right bottom, rgba(83, 49, 49, 0.8), rgba(53, 15, 15, 0.8)), url(../img/sound.png);
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/sound.png);
       background-position: 50%; }
   .card__heading {
     font-size: 2.8rem;
