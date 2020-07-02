@@ -194,19 +194,20 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/instguide.jpg); }
-    .card__picture--2 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/crwn.jpg); }
-    .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/port.jpg); }
-    .card__picture--4 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/calculator.png);
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/instguide.svg);
       background-position: 40%; }
-    .card__picture--5 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/tictactoe.png);
+    .card__picture--2 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/travvel.svg); }
+    .card__picture--3 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/gumut.svg); }
+    .card__picture--4 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/calculator.svg);
       background-position: 50%; }
+    .card__picture--5 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/tictactoe.svg);
+      background-position: 45%; }
     .card__picture--6 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/sound.png);
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/music.svg);
       background-position: 50%; }
   .card__heading {
     font-size: 2.8rem;

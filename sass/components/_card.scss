@@ -79,7 +79,8 @@
           rgba(rgb(102, 31, 31), 0.9),
           rgba(rgb(168, 115, 115), 0.9)
         ),
-        url(../img/instguide.jpg);
+        url(../img/instguide.svg);
+      background-position: 40%;
     }
 
     &--2 {
@@ -88,7 +89,7 @@
           rgba(rgb(102, 31, 31), 0.9),
           rgba(rgb(168, 115, 115), 0.9)
         ),
-        url(../img/crwn.jpg);
+        url(../img/travvel.svg);
     }
 
     &--3 {
@@ -97,7 +98,7 @@
           rgba(rgb(102, 31, 31), 0.9),
           rgba(rgb(168, 115, 115), 0.9)
         ),
-        url(../img/port.jpg);
+        url(../img/gumut.svg);
     }
 
     &--4 {
@@ -106,8 +107,8 @@
           rgba(rgb(102, 31, 31), 0.9),
           rgba(rgb(168, 115, 115), 0.9)
         ),
-        url(../img/calculator.png);
-      background-position: 40%;
+        url(../img/calculator.svg);
+      background-position: 50%;
     }
 
     &--5 {
@@ -116,8 +117,8 @@
           rgba(rgb(102, 31, 31), 0.9),
           rgba(rgb(168, 115, 115), 0.9)
         ),
-        url(../img/tictactoe.png);
-      background-position: 50%;
+        url(../img/tictactoe.svg);
+      background-position: 45%;
     }
 
     &--6 {
@@ -126,7 +127,7 @@
           rgba(rgb(102, 31, 31), 0.9),
           rgba(rgb(168, 115, 115), 0.9)
         ),
-        url(../img/sound.png);
+        url(../img/music.svg);
       background-position: 50%;
     }
   }
