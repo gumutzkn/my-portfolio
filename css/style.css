@@ -168,19 +168,8 @@ body {
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
-      transform: rotateY(180deg); }
-      .card__side--back-1 {
-        background-image: linear-gradient(to right, #b1333d, #850707); }
-      .card__side--back-2 {
-        background-image: linear-gradient(to right, #b1333d, #850707); }
-      .card__side--back-3 {
-        background-image: linear-gradient(to right, #b1333d, #850707); }
-      .card__side--back-4 {
-        background-image: linear-gradient(to right, #b1333d, #850707); }
-      .card__side--back-5 {
-        background-image: linear-gradient(to right, #b1333d, #850707); }
-      .card__side--back-6 {
-        background-image: linear-gradient(to right, #b1333d, #850707); }
+      transform: rotateY(180deg);
+      background-image: linear-gradient(to right, #b1333d, #850707); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -198,8 +187,6 @@ body {
       background-position: 40%; }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/travvel.svg); }
-    .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/gumut.svg); }
     .card__picture--4 {
       background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/calculator.svg);
       background-position: 50%; }
@@ -209,6 +196,18 @@ body {
     .card__picture--6 {
       background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/music.svg);
       background-position: 50%; }
+    .card__picture--7 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/react-mario.svg);
+      background-position: 20%; }
+    .card__picture--8 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/trillo.svg);
+      background-position: 50%; }
+    .card__picture--9 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/natours.svg);
+      background-position: 20%; }
+    .card__picture--10 {
+      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/nexter.svg);
+      background-position: 10%; }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -222,19 +221,8 @@ body {
   .card__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
-    box-decoration-break: clone; }
-    .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
-    .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
-    .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
-    .card__heading-span--4 {
-      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
-    .card__heading-span--5 {
-      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
-    .card__heading-span--6 {
-      background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
+    box-decoration-break: clone;
+    background-image: linear-gradient(to right bottom, rgba(177, 51, 61, 0.85), rgba(133, 7, 7, 0.85)); }
   .card__cta {
     position: absolute;
     top: 50%;

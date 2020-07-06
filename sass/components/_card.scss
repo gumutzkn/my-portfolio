@@ -28,30 +28,7 @@
 
     &--back {
       transform: rotateY(180deg);
-
-      &-1 {
-        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
-      }
-
-      &-2 {
-        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
-      }
-
-      &-3 {
-        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
-      }
-
-      &-4 {
-        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
-      }
-
-      &-5 {
-        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
-      }
-
-      &-6 {
-        background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
-      }
+      background-image: linear-gradient(to right, rgb(177, 51, 61), rgb(133, 7, 7));
     }
   }
 
@@ -92,15 +69,6 @@
         url(../img/travvel.svg);
     }
 
-    &--3 {
-      background-image: linear-gradient(
-          to right bottom,
-          rgba(rgb(102, 31, 31), 0.9),
-          rgba(rgb(168, 115, 115), 0.9)
-        ),
-        url(../img/gumut.svg);
-    }
-
     &--4 {
       background-image: linear-gradient(
           to right bottom,
@@ -130,6 +98,46 @@
         url(../img/music.svg);
       background-position: 50%;
     }
+
+    &--7 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(rgb(102, 31, 31), 0.9),
+          rgba(rgb(168, 115, 115), 0.9)
+        ),
+        url(../img/react-mario.svg);
+      background-position: 20%;
+    }
+
+    &--8 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(rgb(102, 31, 31), 0.9),
+          rgba(rgb(168, 115, 115), 0.9)
+        ),
+        url(../img/trillo.svg);
+      background-position: 50%;
+    }
+
+    &--9 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(rgb(102, 31, 31), 0.9),
+          rgba(rgb(168, 115, 115), 0.9)
+        ),
+        url(../img/natours.svg);
+      background-position: 20%;
+    }
+
+    &--10 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(rgb(102, 31, 31), 0.9),
+          rgba(rgb(168, 115, 115), 0.9)
+        ),
+        url(../img/nexter.svg);
+      background-position: 10%;
+    }
   }
 
   &__heading {
@@ -148,54 +156,11 @@
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-
-    &--1 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba(rgb(177, 51, 61), 0.85),
-        rgba(rgb(133, 7, 7), 0.85)
-      );
-    }
-
-    &--2 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba(rgb(177, 51, 61), 0.85),
-        rgba(rgb(133, 7, 7), 0.85)
-      );
-    }
-
-    &--3 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba(rgb(177, 51, 61), 0.85),
-        rgba(rgb(133, 7, 7), 0.85)
-      );
-    }
-
-    &--4 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba(rgb(177, 51, 61), 0.85),
-        rgba(rgb(133, 7, 7), 0.85)
-      );
-    }
-
-    &--5 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba(rgb(177, 51, 61), 0.85),
-        rgba(rgb(133, 7, 7), 0.85)
-      );
-    }
-
-    &--6 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba(rgb(177, 51, 61), 0.85),
-        rgba(rgb(133, 7, 7), 0.85)
-      );
-    }
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(rgb(177, 51, 61), 0.85),
+      rgba(rgb(133, 7, 7), 0.85)
+    );
   }
 
   // FRONT SIDE STYLING
