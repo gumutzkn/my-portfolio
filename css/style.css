@@ -194,8 +194,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/tictactoe.svg);
       background-position: 45%; }
     .card__picture--6 {
-      background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/music.svg);
-      background-position: 50%; }
+      background-image: linear-gradient(to right, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/react-ecm.png);
+      background-position: 95%; }
     .card__picture--7 {
       background-image: linear-gradient(to right bottom, rgba(102, 31, 31, 0.9), rgba(168, 115, 115, 0.9)), url(../img/react-mario.svg);
       background-position: 20%; }
